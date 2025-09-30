@@ -97,3 +97,41 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Büyük medya dosyaları (gerekmiyorsa)
+*.psd
+*.tif
+*.tga
+*.wav
+*.mp4
+*.avi
+*.mov
+*.fbx
+*.zip
+*.rar
+
+
+# Lightmap & baked data
+/[Aa]ssets/**/[Ll]ightmap*/ 
+/[Aa]ssets/**/[Ll]ightingData.asset
+/[Aa]ssets/**/ReflectionProbe-*.exr
+
+# Occlusion culling data
+/[Aa]ssets/**/OcclusionCullingData.asset
+
+# GI / Cache
+/[Aa]ssets/**/GI/
+/[Aa]ssets/**/Lightmap-0*
+/[Aa]ssets/**/LightmapSnapshot.asset
+
+# Collab cache
+/[Uu]ser[Ss]ettings/Collab/
+/[Aa]ssets/**/CollabCache/
+
+# Asset import cache (bazı versiyonlarda devasa oluyor)
+*.import
+
+# Burst compiler cache
+/[Aa]ssets/**/burst/
+/[Ll]ibrary/Bee/
+
